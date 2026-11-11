@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Geprek Mantap | Ayam Geprek</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar container">
+        <h2 class="logo">GEPREK<span>MANTAP.</span></h2>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="container hero-content">
+
+        <div class="hero-text">
+            <span>SELAMAT DATANG DI GEPREK MANTAP</span>
+
+            <h1>Pedasnya Bikin <strong>Nagih!</strong></h1>
+
+            <p>
+                Nikmati ayam geprek crispy dengan sambal
+                pilihan yang lezat dan harga bersahabat.
+            </p>
+
+            <a href="#menu" class="btn">Lihat Menu Kami</a>
+        </div>
+
+        <div class="image-placeholder">
+            <img src="ayam geprek.avif" alt="Ayam Geprek">
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container about-content">
+
+        <div class="image-placeholder">
+            <img src="tentang geprek mantap.jfif" alt="Tentang Geprek Mantap">
+        </div>
+
+        <div>
+            <span class="subtitle">TENTANG KAMI</span>
+            <h2>Rasa Nikmat, Harga Bersahabat!</h2>
+
+            <p>
+                Geprek Mantap merupakan usaha kuliner
+                yang menyajikan ayam geprek dengan cita
+                rasa khas dan sambal pedas menggoda.
+            </p>
+
+            <p>
+                Kami mengutamakan kualitas bahan,
+                rasa, dan kepuasan pelanggan.
+            </p>
+
+            <a href="#contact" class="btn">Hubungi Kami</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- MENU -->
+<section class="menu-section" id="menu">
+    <div class="container">
+
+        <div class="section-title">
+            <span>MENU FAVORIT</span>
+            <h2>Pilihan Menu Kami</h2>
+            <p>Nikmati menu andalan dari Geprek Mantap.</p>
+        </div>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="ayam geprek original.jfif" alt="Ayam Geprek Original">
+
+                <div class="menu-info">
+                    <h3>Ayam Geprek Original</h3>
+                    <p>Ayam crispy dengan sambal bawang khas.</p>
+                    <h3 class="price">Rp15.000</h3>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="ayam geprek keju.jfif" alt="Ayam Geprek Keju">
+
+                <div class="menu-info">
+                    <h3>Ayam Geprek Keju</h3>
+                    <p>Ayam geprek dengan topping keju gurih.</p>
+                    <h3 class="price">Rp18.000</h3>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="ayam geprek komplit.jfif" alt="Ayam Geprek Komplit">
+
+                <div class="menu-info">
+                    <h3>Ayam Geprek Komplit</h3>
+                    <p>Ayam geprek lengkap dengan nasi dan lalapan.</p>
+                    <h3 class="price">Rp22.000</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section>
+    <div class="container">
+
+        <div class="section-title">
+            <span>KEUNGGULAN KAMI</span>
+            <h2>Kenapa Memilih Kami?</h2>
+        </div>
+
+        <div class="features">
+
+            <div class="feature-card">
+                <h1>🍗</h1>
+                <h3>Ayam Berkualitas</h3>
+                <p>Menggunakan bahan pilihan dan berkualitas.</p>
+            </div>
+
+            <div class="feature-card">
+                <h1>🌶️</h1>
+                <h3>Sambal Istimewa</h3>
+                <p>Sambal khas dengan rasa pedas menggoda.</p>
+            </div>
+
+            <div class="feature-card">
+                <h1>💰</h1>
+                <h3>Harga Terjangkau</h3>
+                <p>Lezat dan mengenyangkan dengan harga bersahabat.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONI -->
+<section class="testimonial-section" id="testimoni">
+    <div class="container">
+
+        <div class="section-title">
+            <span>TESTIMONI</span>
+            <h2>Kata Pelanggan Kami</h2>
+        </div>
+
+        <div class="testimonial-box">
+
+            <h2 class="stars">★★★★★</h2>
+
+            <p id="reviewText">
+                Ayamnya crispy banget dan sambalnya enak!
+            </p>
+
+            <h3 id="reviewName">- Andi</h3>
+
+            <div class="slider-buttons">
+                <button onclick="changeReview(-1)">❮</button>
+                <button onclick="changeReview(1)">❯</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- KONTAK -->
+<section id="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <span>HUBUNGI KAMI</span>
+            <h2>Ada Pertanyaan?</h2>
+        </div>
+
+        <div class="contact-content">
+
+            <div>
+                <h2>Mari Terhubung!</h2>
+                <p>📍 Alamat: tulungagung pucanglaban kaligentong</p>
+                <p>📱 WhatsApp: 082337215114</p>
+                <p>📧 Email: geprekmantap@email.com</p>
+                <p>🕒 Jam Buka: 09.00 - 21.00 WIB</p>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+
+                <input type="text" id="nama"
+                placeholder="Nama Lengkap">
+
+                <input type="tel" id="hp"
+                placeholder="Nomor HP">
+
+                <textarea id="pertanyaan"
+                placeholder="Tuliskan pertanyaan kamu"></textarea>
+
+                <button type="submit" class="btn">
+                    Kirim Pesan
+                </button>
+
+                <p id="message"></p>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-content">
+
+        <div>
+            <h2>GEPREK<span>MANTAP.</span></h2>
+            <p>Pedasnya bikin nagih, harganya bersahabat!</p>
+        </div>
+
+        <div>
+            <h3>Menu</h3>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div>
+            <h3>Media Sosial</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Geprek Mantap. All Rights Reserved.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
